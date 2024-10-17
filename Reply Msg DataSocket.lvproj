@@ -18,7 +18,7 @@
 			<Item Name="Host Reply Time Test Actor.lvlib" Type="Library" URL="../Tests/Host Reply Time Test Actor/Host Reply Time Test Actor.lvlib"/>
 			<Item Name="Launch Host Reply Time Test Actor.vi" Type="VI" URL="../Tests/Host Reply Time Test Actor/Host Reply Time Test Actor/Launch Host Reply Time Test Actor.vi"/>
 			<Item Name="Target Reply Time Test Actor.lvlib" Type="Library" URL="../Tests/Target Reply Time Test Actor/Target Reply Time Test Actor.lvlib"/>
-			<Item Name="Test Locally.vi" Type="VI" URL="../../HAL/HAL GOOP4/Devices/Red-y/Tests/Resources/Test Locally.vi"/>
+			<Item Name="Test Locally.vi" Type="VI" URL="../Tests/Test Locally.vi"/>
 		</Item>
 		<Item Name="Launch Target Reply Time Test Actor.vi" Type="VI" URL="../Tests/Target Reply Time Test Actor/Launch Target Reply Time Test Actor.vi"/>
 		<Item Name="Reply Msg DataSocket Connections Managed.lvclass" Type="LVClass" URL="../Reply Msg Host AE/Reply Msg DataSocket Connections Managed.lvclass"/>
