@@ -5,9 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Reply Msg DataSocket AE Msg.lvclass" Type="LVClass" URL="../Target Reply Time Test Actor Messages/Reply Msg DataSocket AE Msg/Reply Msg DataSocket AE Msg.lvclass"/>
 		<Item Name="Reply Msg DataSocket Msg.lvclass" Type="LVClass" URL="../Target Reply Time Test Actor Messages/Reply Msg DataSocket Msg/Reply Msg DataSocket Msg.lvclass"/>
-		<Item Name="Reply Msg DataSocket Simple Msg.lvclass" Type="LVClass" URL="../Target Reply Time Test Actor Messages/Reply Msg DataSocket Simple Msg/Reply Msg DataSocket Simple Msg.lvclass"/>
 		<Item Name="Reply Msg Msg.lvclass" Type="LVClass" URL="../Target Reply Time Test Actor Messages/Reply Msg Msg/Reply Msg Msg.lvclass"/>
 		<Item Name="Shutdown Msg.lvclass" Type="LVClass" URL="../Target Reply Time Test Actor Messages/Shutdown Msg/Shutdown Msg.lvclass"/>
 	</Item>
