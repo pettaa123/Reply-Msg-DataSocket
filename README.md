@@ -2,7 +2,7 @@
 
 Reply Msg for Actor Framework utilizing DataSocket for communication between different machines.
 
-**Note:** LabVIEW's DataSocket Server must be running on one of the machines, preferably the host machine.
+**Note:** LabVIEW's DataSocket Server must be running on one of the machines, preferably the host machine. The tests utilize a modified version of the Network Stream Strategy from the Network Endpoint Actors, which is necessary if your host machine has multiple network adapters. You can find that modified version [here](https://github.com/pettaa123/Network-Stream-Strategy-for-multiple-Network-Interfaces).
 
 **Performance:** Tests showed a reply time of 4 ms between a Windows host and a cRIO 9045 running RT Linux.
 
