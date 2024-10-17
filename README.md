@@ -1,4 +1,4 @@
-# DS-Reply-Msg
+# Reply-Msg-DataSocket
 
 Reply Msg for Actor Framework utilizing DataSocket for communication between different machines.
 
