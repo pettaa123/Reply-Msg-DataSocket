@@ -4,7 +4,7 @@ Reply Msg for Actor Framework utilizing DataSocket for communication between dif
 
 **Note:** LabVIEW's DataSocket Server must be running on one of the machines, preferably the host machine. The tests utilize a modified version of the Network Stream Strategy from the Network Endpoint Actors, which is necessary if your host machine has multiple network adapters. You can find that modified version [here](https://github.com/pettaa123/Network-Stream-Strategy-for-multiple-Network-Interfaces).
 
-**Performance:** Tests showed a reply time of 4 ms between a Windows host and a cRIO 9045 running RT Linux.
+**Performance:** Tests showed a reply time of <4 ms between a Windows host and a cRIO 9045 running RT Linux. However, the very first reply time may be several hundred milliseconds. Consider a single dummy read before your time critical process starts.
 
 ## Usage
 
@@ -13,7 +13,7 @@ Reply Msg for Actor Framework utilizing DataSocket for communication between dif
 3. Change the inheritance of the newly created Msg Object to `Reply Msg DataSocket.lvclass`.
 4. Override the `Do Core` method.
 5. Copy the content of `Do.vi` to `Do Core.vi`.
-6. You can delete remove `Do.vi` now.
+6. You can delete `Do.vi` now.
 7. In your `Send <your message name>.vi`, replace `Enqueue.vi` with `Send Message and Wait for Response.vi` from `Reply Msg DataSocket.lvclass`.
 8. Adjust the connector pane of `Send <your message name>.vi`.
 
